@@ -1,0 +1,64 @@
+<div class="carousel slide" data-ride="carousel" data-pause="hover">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<div class="row top-padding-lg-md">
+<div class="col-md-12"><a href="https://students.leeds.ac.uk/rooms#building=5-7-Cromer-Terrace-(Careers-Centre)" target="_self"> <img class="img-responsive" src="https://i.ibb.co/4WcwLdX/Welcome-back.png" border="0" alt="Welcome back! Come and visit the Careers Service team at 5-7 Cromer Terrace" style="margin-left: auto; margin-right: auto; height: auto; max-width: 1002px; width: 99%;" /> </a></div>
+</div>
+</div>
+<div class="carousel-item">
+<div class="row top-padding-lg-md">
+<div class="col-md-12"><a href="https://go.shortlister.com/marketplace/leeds" target="_blank" rel="noopener"><img src="https://i.ibb.co/qpc17xB/My-Career-banners.png" border="0" alt="Worried about interviewing on a video call? Practice an online interview with Shortlist.me" style="height: auto; max-width: 1002px; width: 99%;" /></a></div>
+</div>
+</div>
+<div class="carousel-item">
+<div class="row top-padding-lg-md">
+<div class="col-md-12"><a href="https://careerset.com/leeds" target="_blank" rel="noopener"> <img class="img-responsive" src="https://i.ibb.co/9pjcN6F/Career-Set-880-440-px-1140-250-px.png" border="0" alt="Get instant, personlised feedback with our CV Checker" style="margin-left: auto; margin-right: auto; height: auto; max-width: 1002px; width: 99%;" /> </a></div>
+</div>
+</div>
+</div>
+</div>
+#set( $days = ["WEDNESDAY", "FRIDAY", "SUNDAY"] ) #if ( $days.contains($utils.ZonedNow.DayOfWeek.name()) )
+<div style="height: auto; display: inline-block; width: 100%;" class="row">
+<p> </p>
+<div class="icon_column"><a href="https://www.instagram.com/leedsunicareers" target="_blank" class="icon_column_icon" rel="noopener"> <img class="icon_column_icon_icon" src="https://i.ibb.co/PTwd0S6/Instagram-Icon-Pink.png" border="0" alt="Signpost Icon" style="display: inline-block;" /> </a>
+<div class="icon_column_copy">
+<h3 class="icon_column_copy_title">Follow us</h3>
+<p class="icon_column_copy_text">Find us on Instagram for daily stories, takeovers and tips</p>
+</div>
+</div>
+<div class="icon_column"><a href="https://www.graduatesfirst.com/university-career-services/leeds/" target="_blank" class="icon_column_icon" rel="noopener"> <img class="icon_column_icon_icon" src="https://i.ibb.co/c15BvGk/Magnifying-Glass-Icon-Teal.png" border="0" alt="Signpost Icon" style="display: inline-block;" /> </a>
+<div class="icon_column_copy">
+<h3 class="icon_column_copy_title">Online tests</h3>
+<p class="icon_column_copy_text">Psychometric tests, Video Interviews and more at the click of a button</p>
+</div>
+</div>
+<div class="icon_column"><a href="https://careerset.com/leeds" target="_blank" class="icon_column_icon" rel="noopener"> <img class="icon_column_icon_icon" src="https://i.ibb.co/LxhMX2m/CV-Blue.png" border="0" alt="Signpost Icon" style="display: inline-block;" /> </a>
+<div class="icon_column_copy">
+<h3 class="icon_column_copy_title">CV Check</h3>
+<p class="icon_column_copy_text">Get your CV checked online for instant, personalised, detailed feedback</p>
+</div>
+</div>
+</div>
+#else
+<div style="height: auto; display: inline-block; width: 100%;" class="row">
+<p> </p>
+</div>
+<div class="icon_column"><a href="https://careerset.com/leeds" target="_blank" class="icon_column_icon" rel="noopener"> <img class="icon_column_icon_icon" src="https://i.ibb.co/LxhMX2m/CV-Blue.png" border="0" alt="Signpost Icon" style="display: inline-block;" /> </a>
+<div class="icon_column_copy">
+<h3 class="icon_column_copy_title">CV Check</h3>
+<p class="icon_column_copy_text">Get your CV checked online for instant, personalised, detailed feedback</p>
+</div>
+</div>
+<div class="icon_column"><a href="https://www.instagram.com/leedsunicareers" target="_blank" class="icon_column_icon" rel="noopener"> <img class="icon_column_icon_icon" src="https://i.ibb.co/PTwd0S6/Instagram-Icon-Pink.png" border="0" alt="Signpost Icon" style="display: inline-block;" /> </a>
+<div class="icon_column_copy">
+<h3 class="icon_column_copy_title" style="color: #cc235c;">Follow us</h3>
+<p class="icon_column_copy_text">Find us on Instagram for daily stories, takeovers and tips</p>
+</div>
+</div>
+<div class="icon_column"><a href="https://www.graduatesfirst.com/university-career-services/leeds/" target="_blank" class="icon_column_icon" rel="noopener"> <img class="icon_column_icon_icon" src="https://i.ibb.co/c15BvGk/Magnifying-Glass-Icon-Teal.png" border="0" alt="Signpost Icon" style="display: inline-block;" /> </a>
+<div class="icon_column_copy">
+<h3 class="icon_column_copy_title">Online tests</h3>
+<p class="icon_column_copy_text">Psychometric tests, Video Interviews and more at the click of a button</p>
+</div>
+</div>
+#end
